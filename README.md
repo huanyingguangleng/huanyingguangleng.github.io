@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# forliz
 
-You can use the [editor on GitHub](https://github.com/huanyingguangleng/huanyingguangleng.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Project setup
+```
+npm install
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-### Jekyll Themes
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/huanyingguangleng/huanyingguangleng.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Lints and fixes files
+```
+npm run lint
+```
 
-### Support or Contact
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### echarts引入的地图得低于5版本 高版本无中国地图
+
+### 原生echarts非vue组件风格、需要事先准备dom、无响应式系统，所以封装一下
+### 可用第三方封装好的Vue-Echarts>>>https://github.com/ecomfe/vue-echarts或者自己封装echarts组件
+
+### 以后给组件里引入插件时，注意name不要声明为插件名 淦 尤其是swiper插件...
